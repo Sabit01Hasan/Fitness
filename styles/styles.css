@@ -13,6 +13,7 @@
 .banner-content{
     margin-left: 11.87rem;
     padding-top: 3.56rem;
+    height: auto;
 }
 .nav{
     display: flex;
@@ -101,8 +102,6 @@
 
 }
 .banner-right img{
-    width: 21.81rem;
-    height: 36.25rem;
     margin-right: 13.37rem;
 }
 .ball{
@@ -181,4 +180,143 @@
     font-weight: 400;
     line-height: 1.25rem;
     letter-spacing: 0.06rem;
+}
+.dot3{
+    display: none;
+}
+/* *********Main section******** */
+.main{
+    background: black;
+}
+.gap{
+    margin-right: 198px;
+    margin-left: 198px;
+}
+.img-header h3{
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 3rem;
+    font-weight: 900;
+    line-height: 120%;
+    text-align: center;
+    padding-top: 100px;
+}
+.img-header p{
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 0.88rem;
+    font-weight: 400;
+    line-height: 1.5rem;
+    letter-spacing: 0.02rem;
+    text-align: center;
+    margin-top: 14px;
+}
+.img-header{
+    width: 41.94rem;
+}
+.img4{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 58px;
+}
+.img img{
+    border-radius: 50%;
+}
+.img{
+    display: flex;
+    flex-direction: column;
+    width: 14.44rem;
+    justify-content: center;
+    align-items: center;
+}
+.img h5{
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 1.13rem;
+    font-weight: 600;
+    line-height: 120%;
+    margin-top: 30px;
+}
+.img p{
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 0.88rem;
+    font-weight: 400;
+    line-height: 1.13rem;
+    letter-spacing: 0.02rem;
+    text-align: center;
+    margin-top: 6px;
+}
+
+
+@media screen and (max-width: 768px) {
+    .banner-content {
+        margin-left: 1rem;
+        padding-top: 2rem;
+    }
+    .menu{
+        display: none;
+    }
+    .nav{
+        align-items: center;
+    }
+    .dot3{
+        display: contents;
+    }
+    #logo {
+        font-size: 1.5rem;
+        margin-left: 20px;
+
+    }
+    .body {
+        font-size: 2rem;
+    }
+    .description {
+        font-size: 0.875rem;
+    }
+    .banner-container {
+        flex-direction: column;
+        align-items: center;
+    }
+    .header {
+        width: 90%;
+        height: auto;
+        text-align: left;
+    }
+    .btn1, .btn2 {
+        padding: 0.5rem 1.5rem;
+        font-size: 0.875rem;
+        margin: 0.5rem 0;
+    }
+    .banner-right img {
+        margin-right: 0;
+        width: 80%;
+    }
+    .video{
+        position: absolute;
+        left: 10px;
+        top: 730px;
+        padding: 5px;
+    }
+    .workout{
+        position: absolute;
+        left: 230px;
+        top: 450px;
+    }
+    .img4{
+        flex-direction: column;
+        gap: 40px;
+        align-items: center;
+    }
+    .gap{
+        margin-left: 45px;
+        margin-right: 45px;
+    }
+    .img-header{
+        width: 19.88rem;
+    }
+    .img-header h3{
+        font-size: 2rem;
+        padding-top: 20px;
+    }
 }
