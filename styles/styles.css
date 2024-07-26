@@ -378,6 +378,143 @@
     height: 7.5rem;
     padding-bottom: 88px;
 }
+.bmi{
+    background: rgb(34, 34, 34);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.chart{
+    padding-left: 189px;
+    padding-bottom: 133px;
+}
+.chart h5{
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 1.75rem;
+    font-weight: 900;
+    line-height: 120%;
+    text-align: left;
+    padding-top: 52px;
+    margin-bottom: 52px;
+}
+table {
+    border-collapse: collapse;
+    width: 19.38rem;
+}
+th, td {
+    border: 0.5px solid white;
+    padding: 10px;
+    text-align: left;
+}
+th{
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 120%;
+}
+td{
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 0.88rem;
+    font-weight: 400;
+    line-height: 120%;
+}
+.calculate{
+    padding-top: 49px;
+    padding-bottom: 52px;
+    padding-right: 189px;
+    width: 36.06rem;
+}
+.calculate h5{
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 1.75rem;
+    font-weight: 900;
+    line-height: 120%;
+    text-align: left;
+}
+.calculate p{
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 0.88rem;
+    font-weight: 400;
+    line-height: 1.5rem;
+    letter-spacing: 0.02rem;
+    text-align: left;
+}
+.in1 {
+    width: 17.66rem;
+    height: 3rem;
+    padding: 0.75rem 2.5rem 0.75rem 1.25rem;
+    border-radius: 0.5rem;
+    background: rgba(255, 255, 255, 0.1);
+    color: rgba(255, 255, 255, 0.5);
+    border: 0;
+}
+
+.l1, .l2 {
+    display: flex;
+    gap: 12px;
+}
+
+.l1 {
+    margin-top: 35px;
+}
+
+.l2 {
+    margin-top: 12px;
+}
+
+.in2 {
+    width: 21.36rem;
+    height: 4.42rem;
+    padding: 0.75rem 2.5rem 0.75rem 1.25rem;
+    border-radius: 0.5rem;
+    background: rgba(255, 255, 255, 0.1);
+    color: rgba(255, 255, 255, 0.5);
+    border: 0;
+}
+
+.w {
+    color: rgba(255, 255, 255, 0.6);
+    font-family: Inter, sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.38rem;
+    background: rgba(255, 255, 255, 0.1);
+    text-align: left;
+}
+
+.l3 {
+    width: 36.06rem;
+    height: 4.42rem;
+    margin-top: 12px;
+    padding: 0.75rem 1.25rem;
+    border-radius: 0.5rem;
+    background: rgba(255, 255, 255, 0.1);
+    color: rgba(255, 255, 255, 0.5);
+    border: 0;
+    margin-bottom: 34px;
+}
+select.in2 {
+    background: rgba(255, 255, 255, 0.1);
+    color: rgba(255, 255, 255, 0.5);
+}
+select.l3 {
+    background: rgba(255, 255, 255, 0.1);
+    color: rgba(255, 255, 255, 0.5);
+}
+
+select.in2 option {
+    background: rgba(0, 0, 0, 0.8);
+    color: rgba(255, 255, 255, 0.5);
+}
+select.l3 option {
+    background: rgba(0, 0, 0, 0.8);
+    color: rgba(255, 255, 255, 0.5);
+}
 
 
 @media screen and (max-width: 576px) {
@@ -497,9 +634,30 @@
     .bmi-header{
         width: 22.06rem;
         height: 7.75rem;
+        padding-bottom: 32px;
     }
     .bmi-header h4{
         font-size: 2rem;
         font-weight: 900;
+        margin-top: 25px;
+    }
+    .bmi{
+        flex-direction: column;
+    }
+    .chart{
+        padding-left: 20px;
+        padding-bottom: 42px;
+    }
+    .calculate{
+        padding-top: none;
+        padding-bottom: 43px;
+        padding-right: 20px;
+        width: 22.13rem;
+    }
+    .in1 {
+        width: 7.66rem;
+    }
+    .l3 {
+        width: 23.50rem;
     }
 }
