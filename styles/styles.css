@@ -380,7 +380,7 @@
 }
 
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 576px) {
     .banner-content {
         margin-left: 1rem;
         padding-top: 2rem;
@@ -493,5 +493,13 @@
     .food-head h3{
         text-align: left;
         margin-left: 23px;
+    }
+    .bmi-header{
+        width: 22.06rem;
+        height: 7.75rem;
+    }
+    .bmi-header h4{
+        font-size: 2rem;
+        font-weight: 900;
     }
 }
