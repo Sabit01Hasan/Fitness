@@ -248,6 +248,137 @@
     margin-top: 6px;
 }
 
+/* ******PAD**** */
+.pad{
+    width: 66.25rem;
+    height: 23.19rem;
+    border-radius: 1.13rem;
+    background: rgb(34, 34, 34);
+    margin-top: 100px;
+}
+.p-left{
+    width: 27.69rem;
+    text-align: left;
+}
+.p-left h2{
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 3rem;
+    font-weight: 900;
+    line-height: 120%;
+    margin-bottom: 14px;
+}
+.p-left p{
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 0.88rem;
+    font-weight: 400;
+    line-height: 1.5rem;
+    letter-spacing: 0.02rem;
+    text-align: left;
+    margin-bottom: 34px;
+}
+.p-right img{
+    width: 22.88rem;
+    height: 19.5rem;
+    border-radius: 1.13rem;
+}
+.outline{
+    display: flex;
+    justify-content: space-between;
+    padding: 32px;
+    align-items: center;
+}
+
+/* Healthy eating */
+.food-head h3{
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 3rem;
+    font-weight: 900;
+    line-height: 120%;
+    text-align: center;
+    margin-top: 100px;
+}
+.food-head p{
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 0.88rem;
+    font-weight: 400;
+    line-height: 1.5rem;
+    letter-spacing: 0.02rem;
+    text-align: center;
+    width: 850px;
+    margin-top: 10px;
+    padding-bottom: 58px;
+}
+.food{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.pad1{
+    border-radius: 1.13rem;
+    background: rgb(34, 34, 34);
+    padding: 20px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+.pad1 img{
+    width: 12rem;
+    height: 10rem;
+    border-radius: 20px;
+}
+.pad1 h5{
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 1.75rem;
+    font-weight: 900;
+    line-height: 120%;
+    text-align: center;
+}
+.pad1 p{
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 0.88rem;
+    font-weight: 400;
+    line-height: 1.5rem;
+    letter-spacing: 0.02rem;
+    text-align: center;
+}
+
+/* BMI */
+
+.bmi-header h4{
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 3rem;
+    font-weight: 900;
+    line-height: 120%;
+    text-align: left;
+    margin-top: 78px;
+    text-align: left;
+}
+.bmi-header p{
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 0.88rem;
+    font-weight: 400;
+    line-height: 1.5rem;
+    letter-spacing: 0.02rem;
+    text-align: left;
+    text-align: left;
+}
+.bmi-header{
+    width: 41.94rem;
+    height: 7.5rem;
+    padding-bottom: 88px;
+}
+
 
 @media screen and (max-width: 768px) {
     .banner-content {
@@ -262,6 +393,7 @@
     }
     .dot3{
         display: contents;
+        padding-right: 40px;
     }
     #logo {
         font-size: 1.5rem;
@@ -318,5 +450,48 @@
     .img-header h3{
         font-size: 2rem;
         padding-top: 20px;
+    }
+    .outline{
+        flex-direction: column;
+        gap: 31px;
+    }
+    .pad{
+        width: 22.06rem;
+        height: 33.19rem;
+    }
+    .p-left{
+        width: 17.94rem;
+    }
+    .p-left h2{
+        font-size: 2rem;
+    }
+    .p-left p{
+        font-size: 0.88rem;
+        margin-bottom: 10px;
+    }
+    .p-right img{
+        width: 17.94rem;
+        height: 10.63rem;
+    }
+    .p-left button{
+        width: 17.94rem;
+        height: 3.38rem;
+        padding: 1rem 2.5rem 1rem 2.5rem;
+    }
+    .food{
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+    .pad1{
+        width: 20.06rem;
+    }
+    .food-head p{
+        width: 300px;
+        text-align: left;
+    }
+    .food-head h3{
+        text-align: left;
+        margin-left: 23px;
     }
 }
