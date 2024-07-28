@@ -515,6 +515,39 @@ select.l3 option {
     background: rgba(0, 0, 0, 0.8);
     color: rgba(255, 255, 255, 0.5);
 }
+.trainer{
+    height: auto;
+    width: 66.25rem;
+    padding: 1.25rem;
+    border-radius: 1.13rem;
+    background: rgba(255, 255, 255, 0.1);
+    margin-top: 78px;
+    margin-right: auto;
+    margin-left: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+.container{
+    position: relative;
+}
+.container img{
+    width: 20.42rem;
+    height: 17rem;
+    border-radius: 1.13rem;
+}
+.text{
+    font-family: Inter;
+    position: absolute;
+    left: 10px;
+    bottom: 10px;
+}
+.text h3{
+    color: rgb(255, 255, 255);
+}
+.text p{
+    color: rgba(255, 255, 255, 0.5);
+}
 
 
 @media screen and (max-width: 576px) {
@@ -659,5 +692,22 @@ select.l3 option {
     }
     .l3 {
         width: 23.50rem;
+    }
+    .trainer{
+        grid-template-columns: repeat(1, 1fr);
+        width: 20.56rem;
+    }
+    #hide{
+        display: none;
+        align-items: center;
+    }
+    #change{
+        order: 3;
+    }
+    #change1{
+        order: 1;
+    }
+    #change2{
+        order: 3;
     }
 }
